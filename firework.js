@@ -23,7 +23,7 @@ function Firework(){
         if (!this.exploded){
             
 
-            this.firework.explodePart();
+           // this.firework.explodePart();
             this.firework.applyForce(gravity);
             this.firework.update();
 
